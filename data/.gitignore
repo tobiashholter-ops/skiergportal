@@ -1,0 +1,16 @@
+# Local secrets
+system/.streamlit/secrets.toml
+
+# Local user data
+system/Data/*
+!system/Data/.gitignore
+!system/Data/README.md
+
+# Python
+.venv/
+system/.venv/
+__pycache__/
+*.pyc
+
+# Logs
+system/logs/
